@@ -21,7 +21,7 @@ html {
   line-height: 1.5em; /* Change the line height size*/
   margin: 0em;
   color: white; /* Change the font color*/
-  background-color: #0D38D3; /* Change the background color */
+  background-color: #000000; /* Change the background color */
   box-sizing: border-box;
 }
 
@@ -30,7 +30,7 @@ h1 {
   font-size: 50px;
   /*TODO: Change the font-family property to your linked font*/
   font-family: "Lora", serif;
-  color: #43d6b9ff;
+  color: #7b08c8ff;
   text-align: center;
 }
 
@@ -39,14 +39,14 @@ h2 {
   letter-spacing: 3px;
   font-size: 25px;
   font-family: "Raleway", sans-serif;
-  color: #43d6b9ff;
+  color: #ffffff;
   text-align: center;
   line-height: 1.3em;
 }
 
 /*TODO: Change the color of a link when a person hovers over it*/
 p a {
-  color: #43d6b9ff;
+  color: #7b08c8ff;
   text-decoration: none;
 }
 
@@ -64,9 +64,9 @@ ul.nav-bar {
   margin: 0;
   padding: 0;
   overflow: hidden;
-  background-color: #43d6b9ff;
+  background-color: #000000;
   border-style: solid;
-  border-color: #0D38D3;
+  border-color: #2f0640;
 }
 
 /* TODO (optional): Change the font size*/
@@ -82,7 +82,7 @@ li.nav {
 li.nav a {
   /* Styling for the <a> elements in <li class="nav"> */
   display: block;
-  color: #0D38D3;
+  color: #ffffff;
   text-align: center;
   padding: 14px 16px;
   text-decoration: none;
@@ -94,8 +94,8 @@ li.nav a {
 
 li.nav a:hover {
   /* Styling for the <a> elements when the mouse is hovering in <li class="nav"> */
-  background-color: #0D38D3;
-  color: #43d6b9ff;
+  background-color: #2f0640;
+  color: #b708ff;
 }
 
 /************************************************/
@@ -110,7 +110,8 @@ li.nav a:hover {
   justify-content: center; /* Justify the flex items to the center */
   align-items: center; /* Align the flex items to the center */
   border-style: solid; /* Set a border around the heading. Don't delete! */
-
+  border-color: black; 
+  
   /* Design properties */
   background-color: #7b08c8ff;
   padding: 5px;
@@ -162,7 +163,7 @@ li.nav a:hover {
 /* TODO (optional): Change the background color and/or text alignment */
 
 .text-section {
-  background-color: #0D38D3;
+  background-color: #000000;
   padding: 20px 45px;
   margin: 35px;
   text-align: center;

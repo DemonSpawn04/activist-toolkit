@@ -135,13 +135,13 @@ like a checkmark!
 
 /* Change background color when cursor hovers over list items */
 #my-list li:hover {
-  background: #f3f3f3;
-  color: #0D38D3;
+  background: #db82ff;
+  color: #ffffff;
 }
 
 /* Change check square color when cursor hovers over */
 #my-list li:hover::before {
-  border-color: #0D38D3;
+  border-color: #ffffff;
   border-style: solid;
 }
 

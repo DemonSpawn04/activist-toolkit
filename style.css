@@ -174,7 +174,9 @@ li.nav a:hover {
 
 .main-message,
 .image-one,
-.image-two {
+.image-two,
+.image-three,
+.image-four {
   position: relative;
   background-position: center;
   background-repeat: no-repeat;
@@ -201,7 +203,13 @@ li.nav a:hover {
   background-image: url("https://cdn.glitch.com/9dee774a-fe83-4654-bf01-d499d8bf0ed8%2Fpolicekillingscalendar2019-min.png?v=1594788750506")
 }
 /* TODO: Add more background images by repeating the process above */
+.image-three {
+  background-image: url("https://cdn.glitch.com/9dee774a-fe83-4654-bf01-d499d8bf0ed8%2FAngelaDavis_photo_2019-min.jpg?v=1594788734221")
+}
 
+.image-four {
+  background-image: url("https://cdn.glitch.com/9dee774a-fe83-4654-bf01-d499d8bf0ed8%2Fclay-banks-Wg3whp6W_nw-unsplash-min.jpg?v=1594799743347")
+}
 /*-----------IMAGE ATTRIBUTIONS (if required)-----------*/
 .attributions {
   font-size: 12px;

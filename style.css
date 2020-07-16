@@ -109,6 +109,7 @@ li.nav a:hover {
   flex-wrap: nowrap; /* Don’t wrap the flex items */
   justify-content: center; /* Justify the flex items to the center */
   align-items: center; /* Align the flex items to the center */
+  border-style: solid; /* Set a border around the heading. Don't delete! */
 
   /* Design properties */
   background-color: #7b08c8ff;

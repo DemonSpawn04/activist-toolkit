@@ -110,12 +110,12 @@ li.nav a:hover {
   justify-content: center; /* Justify the flex items to the center */
   align-items: center; /* Align the flex items to the center */
   border-style: solid; /* Set a border around the heading. Don't delete! */
-  border-color: black; 
-  
+  border-color: black;
+
   /* Design properties */
   background-color: #7b08c8ff;
   padding: 5px;
-  
+
   /* Positioning properties */
   position: absolute;
   left: 20%;
@@ -136,7 +136,6 @@ li.nav a:hover {
   text-align: center;
 
   /*Debugging Tip: Uncomment the line below to see the outline of the container*/
-  
 }
 
 /* TODO: Review the CSS properties to the flex item for the intro text (the right box) */
@@ -151,7 +150,6 @@ li.nav a:hover {
   text-align: center;
   border-style: solid;
   /*Debugging Tip: Uncomment the line below to see the outline of the container*/
- 
 }
 
 /************************************************/
@@ -201,15 +199,15 @@ li.nav a:hover {
 
 /* TODO: Add a second background image. Make sure you add this class selector to the collective image rule set above */
 .image-two {
-  background-image: url("https://cdn.glitch.com/9dee774a-fe83-4654-bf01-d499d8bf0ed8%2Fpolicekillingscalendar2019-min.png?v=1594788750506")
+  background-image: url("https://cdn.glitch.com/9dee774a-fe83-4654-bf01-d499d8bf0ed8%2Fpolicekillingscalendar2019-min.png?v=1594788750506");
 }
 /* TODO: Add more background images by repeating the process above */
 .image-three {
-  background-image: url("https://cdn.glitch.com/9dee774a-fe83-4654-bf01-d499d8bf0ed8%2FAngelaDavis_photo_2019-min.jpg?v=1594788734221")
+  background-image: url("https://cdn.glitch.com/9dee774a-fe83-4654-bf01-d499d8bf0ed8%2FAngelaDavis_photo_2019-min.jpg?v=1594788734221");
 }
 
 .image-four {
-  background-image: url("https://cdn.glitch.com/9dee774a-fe83-4654-bf01-d499d8bf0ed8%2Fclay-banks-Wg3whp6W_nw-unsplash-min.jpg?v=1594799743347")
+  background-image: url("https://cdn.glitch.com/9dee774a-fe83-4654-bf01-d499d8bf0ed8%2Fclay-banks-Wg3whp6W_nw-unsplash-min.jpg?v=1594799743347");
 }
 /*-----------IMAGE ATTRIBUTIONS (if required)-----------*/
 .attributions {
@@ -223,7 +221,7 @@ li.nav a:hover {
 /******************************************************/
 
 /* TODO: Add a breakpoint if the screen is 700px or less */
-@media screen and (max-width: 700px){
+@media screen and (max-width: 700px) {
   /* CSS Rules go here */
   .flex-container {
     flex-wrap: wrap;
@@ -234,4 +232,4 @@ li.nav a:hover {
   }
 }
 
-/* TODO: Add additional breakpoints based on your website's design
+/* TODO: Add additional breakpoints based on your website's design*/
